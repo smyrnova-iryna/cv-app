@@ -23,7 +23,6 @@ const Certificates = (props) => {
             setCurrentCertificate(certificatesArray[0]);
         } 
     };
-    console.log(props);
     if (certificateState === 'hide') {
         return (
             <div>
