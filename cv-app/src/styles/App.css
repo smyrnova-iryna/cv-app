@@ -30,14 +30,14 @@
     justify-content: flex-start;
     gap: 2%;
     padding: 0 2%;
+    margin-left: 1%;
 }
 
 .headerLanguageButton {
     border-color: var(--details-first-color);
     background-color: var(--light-main-color);
     width: 70px;
-    height: 100%;
-    margin-left: 1%;
+    height: 40px;
     margin-top: 1%;
 }
 
@@ -55,6 +55,7 @@
     flex-direction: row;
     align-items: flex-end;
     padding: 0 3%;
+    margin-right: 2%;
     gap: 10%;
 }
 
@@ -75,7 +76,6 @@
 }
 
 .sideBarPhoto {
-    /* width: 100%; */
     max-height: 500px;
 }
 
@@ -148,8 +148,10 @@
 }
 
 .mainPageCertificate {
-    max-width: 800px;
-    max-height: 800px;
+    /* max-width: 800px;
+    max-height: 800px; */
+    width: 70%;
+    height: 70%;
 }
 
 .mainPageContainer {
@@ -177,5 +179,59 @@
 
 .mainPageCertificatesLink:hover {
     color: var(--light-main-color);
+}
+
+@media screen and (max-width: 1000px) {
+    .header {
+        height: 7%;
+    }
+    .headerLanguageButton {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .sideBarPhoto {
+        width: 100%;
+    }
+    .mainPage {
+        padding-top: 3%;
+    } 
+    .sideBarLink {
+        font-size: small
+    }
+    .sideBar {
+        min-width: 30%;
+    }
+    .mainPageInfoText {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .headerButtonGroup {
+        width: max-content;
+    }
+    .sideBar {
+        min-width: 40%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        height: 6%;
+    }
+    .headerLanguageButton {
+        width: max-content;
+    }
+    .mainContainer {
+        flex-direction: column;
+    }
+    .sideBar {
+        width: 100%;
+    }
+    .sideBarPhoto {
+        max-height: none;
+    }
 }
 
