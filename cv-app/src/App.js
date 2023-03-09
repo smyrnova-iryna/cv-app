@@ -8,7 +8,9 @@ import Courses from './components/Courses';
 import Certificates from './components/Certificates';
 import Education from './components/Education';
 import Projects from './components/Projects';
+import Experience from './components/Experience';
 import './styles/App.css'
+import Links from './components/Links';
 
 const enCVInfo = {
   contacts: {
@@ -74,6 +76,16 @@ const enCVInfo = {
     startDate: '01.2023',
     finishDate: 'up to now'
   },
+  links: {
+    gh: {
+      title: 'Github',
+      link: 'https://github.com/smyrnova-iryna'
+    },
+    linkedIn: {
+      title: 'LinkedIn',
+      link: 'https://www.linkedin.com/in/iryna-smyrnova-74461a261/'
+    }
+  }
 };
 
 const ukrCVInfo = {
@@ -131,6 +143,16 @@ const ukrCVInfo = {
   certificates: {
     buttonShowText: 'Переглянути сертифікати',
     linkText: 'Натисніть для перевірки'
+  },
+  links: {
+    gh: {
+      title: 'Github',
+      link: 'https://github.com/smyrnova-iryna'
+    },
+    linkedIn: {
+      title: 'LinkedIn',
+      link: 'https://www.linkedin.com/in/iryna-smyrnova-74461a261/'
+    }
   }
 };
 
@@ -151,8 +173,11 @@ function App() {
   return (
     <>
     <div className='header'>
-        <button className='headerLanguageButton' onClick={setEnLanguage}><span className='headerbuttonText'>{enButtonText}</span></button>
-        <button className='headerLanguageButton' onClick={setUkrLanguage}><span className='headerbuttonText'>{ukrButtonText}</span></button>
+        <div className='headerButtonGroup'>
+          <button className='headerLanguageButton' onClick={setEnLanguage}><span className='headerbuttonText'>{enButtonText}</span></button>
+          <button className='headerLanguageButton' onClick={setUkrLanguage}><span className='headerbuttonText'>{ukrButtonText}</span></button>
+        </div>
+        <Links gh={cvArr.links.gh} linkedIn={cvArr.links.linkedIn} />
       </div>
     <div className='mainContainer'>
       <div className='sideBar'>
