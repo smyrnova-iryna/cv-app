@@ -11,11 +11,15 @@ const Projects = (props) => {
                 </li>
                 <li>
                     <p>{props.projectsList[1].description} - [{props.projectsList[1].technologies}]</p>
-                    <p><a className='mainPageLink' href='https://smyrnova-iryna.github.io/contact-us-form/ '>{props.projectsList[1].url}</a></p>
+                    <p><a className='mainPageLink' href={props.projectsList[1].url} rel="noreferrer" target="_blank">{props.projectsList[1].url} </a></p>
                 </li>
                 <li>
                     <p>{props.projectsList[2].description} - [{props.projectsList[2].technologies}]</p>
-                    <p><a className='mainPageLink' href='https://smyrnova-iryna.github.io/cv-app'>{props.projectsList[2].url}</a></p>
+                    <p><a className='mainPageLink' href={props.projectsList[2].url} rel="noreferrer" target="_blank">{props.projectsList[2].url}</a></p>
+                </li>
+                <li>
+                    <p>{props.projectsList[3].description} - [{props.projectsList[3].technologies}]</p>
+                    <p><a className='mainPageLink' href={props.projectsList[3].url} rel="noreferrer" target="_blank">{props.projectsList[3].url}</a></p>
                 </li>
             </ul>
         </div>

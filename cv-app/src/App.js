@@ -60,9 +60,9 @@ const enCVInfo = {
   projects: {
     title: 'Projects',
     projectsList: [{description: 'Ferrometals company website', technologies: 'React, MaterialUI', url: '(Development in progress)'},
-      {description: 'Contact-us form', technologies: 'React, Styled components', 
-    url: 'https://smyrnova-iryna.github.io/contact-us-form/ '}, 
-    {description: 'CV project', technologies: 'React', url: 'https://smyrnova-iryna.github.io/cv-app'}]
+    {description: 'Contact-us form', technologies: 'React, Styled components', url: 'https://smyrnova-iryna.github.io/contact-us-form'}, 
+    {description: 'CV project', technologies: 'React', url: 'https://smyrnova-iryna.github.io/cv-app'},
+    {description: 'Furniture company website template', technologies: 'HTML, CSS', url: 'https://smyrnova-iryna.github.io/furniture'},]
   },
   certificates: {
     buttonShowText: 'View certificates',
@@ -136,9 +136,9 @@ const ukrCVInfo = {
   projects: {
     title: 'Проекти',
     projectsList: [{description: 'Вебсайт компанії Ferrometals', technologies: 'React, MaterialUI', url: '(В процесі розробки)'},
-    {description: `Форма зворотнього зв'язку`, technologies: 'React, Styled components', 
-    url: 'https://smyrnova-iryna.github.io/contact-us-form/ '}, 
-    {description: 'Резюме', technologies: 'React', url: 'https://smyrnova-iryna.github.io/cv-app'}]
+    {description: `Форма зворотнього зв'язку`, technologies: 'React, Styled components', url: 'https://smyrnova-iryna.github.io/contact-us-form/ '}, 
+    {description: 'Резюме', technologies: 'React', url: 'https://smyrnova-iryna.github.io/cv-app'},
+    {description: 'Шаблон вебсайту для меблевої компанії', technologies: 'HTML, CSS', url: 'https://smyrnova-iryna.github.io/furniture'}]
   },
   certificates: {
     buttonShowText: 'Переглянути сертифікати',

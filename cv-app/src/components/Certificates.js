@@ -35,9 +35,9 @@ const Certificates = (props) => {
                 <button className="mainPageButton" onClick={showCertificates}><span className="material-symbols-outlined">close</span></button>
                 <a className='mainPageCertificatesLink' href='https://career.softserveinc.com/en-us/certification/verification'>{props.linkText}</a>
                     <div className="mainPageCertificatesContainer">
-                        <button className="mainPageButton" onClick={changeCertificate}><span class="material-symbols-outlined">chevron_left</span></button>
+                        <button className="mainPageButton" onClick={changeCertificate}><span className="material-symbols-outlined">chevron_left</span></button>
                             {currentCertificate}
-                        <button className="mainPageButton" onClick={changeCertificate}><span class="material-symbols-outlined">chevron_right</span></button>
+                        <button className="mainPageButton" onClick={changeCertificate}><span className="material-symbols-outlined">chevron_right</span></button>
                     </div>
             </div>
         )
