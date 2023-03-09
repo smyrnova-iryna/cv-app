@@ -65,7 +65,15 @@ const enCVInfo = {
   certificates: {
     buttonShowText: 'View certificates',
     linkText: 'Click to verify'
-  }
+  },
+  experience: {
+    title: 'Experience',
+    company: 'Ferrometals ',
+    position: '',
+    description: '',
+    startDate: '01.2023',
+    finishDate: 'up to now'
+  },
 };
 
 const ukrCVInfo = {
