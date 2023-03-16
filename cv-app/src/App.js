@@ -29,7 +29,7 @@ const enCVInfo = {
   mainInfo: {
     name: 'Iryna Smyrnova',
     position: 'Trainee/Junior Front-end Developer',
-    information: 'The beginner in IT who gained professional knowledge by combination of attending courses and self-learning. Have a high level of efficiency and responsible attitude to implementation of work tasks. Willing to learn and improve my skills by working on real projects. Now looking for an opportunity for starting career as a Front-end Developer.'
+    information: 'I have practical experience of implementing projects on React according to the principles of adaptive layout (to demonstrate experience, this resume is written on React). Since February 2023, I have been working on a project to write the corporate website of the Lithuanian company Ferrometals.'
   },
   languages: {
     title: 'Languages',
@@ -70,10 +70,10 @@ const enCVInfo = {
   },
   experience: {
     title: 'Experience',
-    company: 'Ferrometals ',
-    position: '',
-    description: '',
-    startDate: '01.2023',
+    company: 'in Ferrometals',
+    position: 'Junior React Developer',
+    description: 'Was responsible for developing and designing of company`s corporate website',
+    startDate: '02.2023',
     finishDate: 'up to now'
   },
   links: {
@@ -100,12 +100,12 @@ const ukrCVInfo = {
   },
   softSkills: {
     title: 'Софт-скілс',
-    skillsList: ['Командна робота', 'Управління часом', 'Критичне мислення', 'Комунікабельність', 'Креативність', 'Здібність до навчання'],
+    skillsList: ['Командна робота', 'Управління часом', 'Критичне мислення', 'Комунікабельність', 'Креативність', 'Здібність до навчання', 'Увага до деталей'],
   },
   mainInfo: {
     name: 'Ірина Смирнова',
     position: 'Трейні/Джуніор Фронт-енд розробник',
-    information: 'Початківець в ІТ, що отримала професійні знання, поєднуючи відвідування курсів і самонавчання. Маю високий рівень працездатності та відповідально ставлюсь до виконання робочих завдань. Бажаю вчитися та вдосконалювати свої навички, працюючи над реальними проектами. Зараз шукаю можливість розпочати кар’єру Фронт-енд розробника.'
+    information: 'Маю практичний досвід реалізації проектів на React за принципами адаптивної верстки (для демонстрації досвіду це резюме написане на React). З лютого 2023 року виконую проект з написання корпоративного сайту литовського підприємства Ferrometals.'
   },
   languages: {
     title: 'Мови',
@@ -134,7 +134,7 @@ const ukrCVInfo = {
     finishDate: '2022'
   },
   projects: {
-    title: 'Проекти',
+    title: 'Проєкти',
     projectsList: [{description: 'Вебсайт компанії Ferrometals', technologies: 'React, MaterialUI', url: '(В процесі розробки)'},
     {description: `Форма зворотнього зв'язку`, technologies: 'React, Styled components', url: 'https://smyrnova-iryna.github.io/contact-us-form/ '}, 
     {description: 'Резюме', technologies: 'React', url: 'https://smyrnova-iryna.github.io/cv-app'},
@@ -143,6 +143,14 @@ const ukrCVInfo = {
   certificates: {
     buttonShowText: 'Переглянути сертифікати',
     linkText: 'Натисніть для перевірки'
+  },
+  experience: {
+    title: 'Досвід роботи',
+    company: 'у Ferrometals',
+    position: 'Junior React Developer',
+    description: 'Відповідала за розробку та дизайн корпоративного сайту компанії',
+    startDate: '02.2023',
+    finishDate: 'по теперішній момент'
   },
   links: {
     gh: {
@@ -191,6 +199,7 @@ function App() {
       </div>
       <div className='mainPage'>
         <MainInfo name={cvArr.mainInfo.name} position={cvArr.mainInfo.position} information={cvArr.mainInfo.information} />
+        <Experience title={cvArr.experience.title} position={cvArr.experience.position} company={cvArr.experience.company} description={cvArr.experience.description} startDate={cvArr.experience.startDate} finishDate={cvArr.experience.finishDate} />
         <Projects title={cvArr.projects.title} projectsList={cvArr.projects.projectsList}/>
         <Languages title={cvArr.languages.title} languagesList={cvArr.languages.languagesList} />
         <Courses title={cvArr.courses.title} coursesList={cvArr.courses.coursesList}/>
