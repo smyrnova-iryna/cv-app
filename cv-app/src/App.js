@@ -20,16 +20,16 @@ const enCVInfo = {
   },
   hardSkills: {
     title: 'Hard skills',
-    skillsList: ['HTML', 'CSS', 'JavaScript', 'React', 'GIT'],
+    skillsList: ['HTML', 'CSS', 'JavaScript', 'React', 'Styled components', 'MUI', 'GIT'],
   },
   softSkills: {
     title: 'Soft skills',
-    skillsList: ['Teamwork', 'Time management', 'Critical thinking', 'Communication', 'Creativity', 'Learnability'],
+    skillsList: ['Teamwork', 'Time management', 'Critical thinking', 'Communication', 'Creativity', 'Learnability', 'Attention to details'],
   },
   mainInfo: {
     name: 'Iryna Smyrnova',
     position: 'Trainee/Junior Front-end Developer',
-    information: 'I have practical experience of implementing projects on React according to the principles of adaptive layout (to demonstrate experience, this resume is written on React). Since February 2023, I have been working on a project to write the corporate website of the Lithuanian company Ferrometals.'
+    information: 'I have practical experience of implementing projects on React according to the principles of responsive web design (to demonstrate experience this resume is made using React). Since February 2023 I have been developing corporate website of the Lithuanian company Ferrometals.'
   },
   languages: {
     title: 'Languages',
@@ -59,9 +59,9 @@ const enCVInfo = {
   },
   projects: {
     title: 'Projects',
-    projectsList: [{description: 'Ferrometals company website', technologies: 'React, MaterialUI', url: '(Development in progress)'},
-    {description: 'Contact-us form', technologies: 'React, Styled components', url: 'https://smyrnova-iryna.github.io/contact-us-form'}, 
+    projectsList: [{description: 'Ferrometals company`s website', technologies: 'React, MUI', url: '(Development in progress)'},
     {description: 'CV project', technologies: 'React', url: 'https://smyrnova-iryna.github.io/cv-app'},
+    {description: 'Contact-us form', technologies: 'React, Styled components', url: 'https://smyrnova-iryna.github.io/contact-us-form'}, 
     {description: 'Furniture company website template', technologies: 'HTML, CSS', url: 'https://smyrnova-iryna.github.io/furniture'},]
   },
   certificates: {
@@ -71,8 +71,8 @@ const enCVInfo = {
   experience: {
     title: 'Experience',
     company: 'in Ferrometals',
-    position: 'Junior React Developer',
-    description: 'Was responsible for developing and designing of company`s corporate website',
+    position: 'React Developer',
+    description: 'I am responsible for developing and designing of the company`s corporate website',
     startDate: '02.2023',
     finishDate: 'up to now'
   },
@@ -96,7 +96,7 @@ const ukrCVInfo = {
   },
   hardSkills: {
     title: 'Хард-скілс',
-    skillsList: ['HTML', 'CSS', 'JavaScript', 'React', 'GIT'],
+    skillsList: ['HTML', 'CSS', 'JavaScript', 'React', 'Styled components', 'MUI', 'GIT'],
   },
   softSkills: {
     title: 'Софт-скілс',
@@ -135,9 +135,9 @@ const ukrCVInfo = {
   },
   projects: {
     title: 'Проєкти',
-    projectsList: [{description: 'Вебсайт компанії Ferrometals', technologies: 'React, MaterialUI', url: '(В процесі розробки)'},
-    {description: `Форма зворотнього зв'язку`, technologies: 'React, Styled components', url: 'https://smyrnova-iryna.github.io/contact-us-form/ '}, 
+    projectsList: [{description: 'Вебсайт компанії Ferrometals', technologies: 'React, MUI', url: '(В процесі розробки)'},
     {description: 'Резюме', technologies: 'React', url: 'https://smyrnova-iryna.github.io/cv-app'},
+    {description: `Форма зворотнього зв'язку`, technologies: 'React, Styled components', url: 'https://smyrnova-iryna.github.io/contact-us-form/ '}, 
     {description: 'Шаблон вебсайту для меблевої компанії', technologies: 'HTML, CSS', url: 'https://smyrnova-iryna.github.io/furniture'}]
   },
   certificates: {
@@ -147,10 +147,10 @@ const ukrCVInfo = {
   experience: {
     title: 'Досвід роботи',
     company: 'у Ferrometals',
-    position: 'Junior React Developer',
-    description: 'Відповідала за розробку та дизайн корпоративного сайту компанії',
+    position: 'React Developer',
+    description: 'Відповідаю за розробку та дизайн корпоративного сайту компанії',
     startDate: '02.2023',
-    finishDate: 'по теперішній момент'
+    finishDate: 'по теперішній час'
   },
   links: {
     gh: {
