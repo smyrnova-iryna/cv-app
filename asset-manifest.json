@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/cv-app/static/css/main.b4331e38.css",
-    "main.js": "/cv-app/static/js/main.932b2587.js",
+    "main.js": "/cv-app/static/js/main.12056752.js",
     "static/js/787.dbc30ae6.chunk.js": "/cv-app/static/js/787.dbc30ae6.chunk.js",
     "static/media/app-photo.jpg": "/cv-app/static/media/app-photo.229ab3f06634bdaef822.jpg",
     "static/media/certificate-fundamentals.jpg": "/cv-app/static/media/certificate-fundamentals.81aa48f87fcb64ca0d7c.jpg",
     "static/media/certificate-react-marathon.jpg": "/cv-app/static/media/certificate-react-marathon.4ee8cfbf1c91f1eccbd4.jpg",
     "index.html": "/cv-app/index.html",
     "main.b4331e38.css.map": "/cv-app/static/css/main.b4331e38.css.map",
-    "main.932b2587.js.map": "/cv-app/static/js/main.932b2587.js.map",
+    "main.12056752.js.map": "/cv-app/static/js/main.12056752.js.map",
     "787.dbc30ae6.chunk.js.map": "/cv-app/static/js/787.dbc30ae6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4331e38.css",
-    "static/js/main.932b2587.js"
+    "static/js/main.12056752.js"
   ]
 }
