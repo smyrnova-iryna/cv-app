@@ -29,7 +29,7 @@ const enCVInfo = {
   mainInfo: {
     name: 'Iryna Smyrnova',
     position: 'Trainee/Junior Front-end Developer',
-    information: 'I have practical experience of implementing projects on React according to the principles of responsive web design (to demonstrate experience this resume is made using React). Since February 2023 I have been developing corporate website of the Lithuanian company Ferrometals.'
+    information: 'I have practical experience of implementing projects on React according to the principles of responsive web design (to demonstrate experience this resume is made using React). Since February 2023 I have been developing corporate website of the Lithuanian company UAB "FerroMetals".'
   },
   languages: {
     title: 'Languages',
@@ -59,7 +59,7 @@ const enCVInfo = {
   },
   projects: {
     title: 'Projects',
-    projectsList: [{description: 'Ferrometals company`s website', technologies: 'React, MUI', url: '(Development in progress)'},
+    projectsList: [{description: 'UAB "FerroMetals" company`s website', technologies: 'React, MUI', url: '(Development in progress)'},
     {description: 'CV project', technologies: 'React', url: 'https://smyrnova-iryna.github.io/cv-app'},
     {description: 'Contact-us form', technologies: 'React, Styled components', url: 'https://smyrnova-iryna.github.io/contact-us-form'}, 
     {description: 'Furniture company website template', technologies: 'HTML, CSS', url: 'https://smyrnova-iryna.github.io/furniture'},]
@@ -70,9 +70,9 @@ const enCVInfo = {
   },
   experience: {
     title: 'Experience',
-    company: 'in Ferrometals',
+    company: 'in UAB "FerroMetals"',
     position: 'React Developer',
-    description: 'I am responsible for developing and designing of the company`s corporate website',
+    description: 'I am responsible for developing and designing of the company`s corporate website (in the activity "Woodworking machines production and sale")',
     startDate: '02.2023',
     finishDate: 'up to now'
   },
@@ -105,7 +105,7 @@ const ukrCVInfo = {
   mainInfo: {
     name: 'Ірина Смирнова',
     position: 'Трейні/Джуніор Фронт-енд розробник',
-    information: 'Маю практичний досвід реалізації проектів на React за принципами адаптивної верстки (для демонстрації досвіду це резюме написане на React). З лютого 2023 року виконую проект з написання корпоративного сайту литовського підприємства Ferrometals.'
+    information: 'Маю практичний досвід реалізації проектів на React за принципами адаптивної верстки (для демонстрації досвіду це резюме написане на React). З лютого 2023 року виконую проект з розробки корпоративного сайту литовського підприємства UAB "FerroMetals".'
   },
   languages: {
     title: 'Мови',
@@ -135,7 +135,7 @@ const ukrCVInfo = {
   },
   projects: {
     title: 'Проєкти',
-    projectsList: [{description: 'Вебсайт компанії Ferrometals', technologies: 'React, MUI', url: '(В процесі розробки)'},
+    projectsList: [{description: 'Вебсайт компанії UAB "FerroMetals"', technologies: 'React, MUI', url: '(В процесі розробки)'},
     {description: 'Резюме', technologies: 'React', url: 'https://smyrnova-iryna.github.io/cv-app'},
     {description: `Форма зворотнього зв'язку`, technologies: 'React, Styled components', url: 'https://smyrnova-iryna.github.io/contact-us-form/ '}, 
     {description: 'Шаблон вебсайту для меблевої компанії', technologies: 'HTML, CSS', url: 'https://smyrnova-iryna.github.io/furniture'}]
@@ -146,9 +146,9 @@ const ukrCVInfo = {
   },
   experience: {
     title: 'Досвід роботи',
-    company: 'у Ferrometals',
+    company: 'в UAB "FerroMetals"',
     position: 'React Developer',
-    description: 'Відповідаю за розробку та дизайн корпоративного сайту компанії',
+    description: 'Відповідаю за розробку та дизайн корпоративного сайту компанії (за напрямком "Виготовлення та продаж деревообробних верстатів")',
     startDate: '02.2023',
     finishDate: 'по теперішній час'
   },
