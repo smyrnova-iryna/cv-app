@@ -29,7 +29,7 @@ const enCVInfo = {
   mainInfo: {
     name: 'Iryna Smyrnova',
     position: 'Trainee/Junior Front-end Developer',
-    information: 'I have practical experience of implementing projects on React according to the principles of responsive web design (to demonstrate experience this resume is made using React). Since February 2023 I have been developing corporate website of the Lithuanian company UAB "FerroMetals".'
+    information: 'I have practical experience of implementing projects on React according to the principles of responsive web design (to demonstrate experience this resume is made using React). I have confirmation of main hard skills (React, JavaScript, CSS, HTML) on my LinkedIn profile according to the results of relevant tests. Since February 2023 I have been developing corporate website of the Lithuanian company UAB "FerroMetals".'
   },
   languages: {
     title: 'Languages',
@@ -105,7 +105,7 @@ const ukrCVInfo = {
   mainInfo: {
     name: 'Ірина Смирнова',
     position: 'Трейні/Джуніор Фронт-енд розробник',
-    information: 'Маю практичний досвід реалізації проектів на React за принципами адаптивної верстки (для демонстрації досвіду це резюме написане на React). З лютого 2023 року виконую проект з розробки корпоративного сайту литовського підприємства UAB "FerroMetals".'
+    information: 'Маю практичний досвід реалізації проектів на React за принципами адаптивної верстки (для демонстрації досвіду це резюме написане на React). Маю підтвердження основних хард-скілів (React, JavaScript, CSS, HTML) на своєму профілі LinkedIn за результами відповідних тестувань. З лютого 2023 року виконую проект з розробки корпоративного сайту литовського підприємства UAB "FerroMetals".'
   },
   languages: {
     title: 'Мови',

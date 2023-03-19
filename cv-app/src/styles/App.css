@@ -72,7 +72,7 @@
 .sideBar {
     background-color: var(--dark-main-color); 
     color: var(--light-font-color);
-    width: 40%;
+    max-width: 20%;
     padding-bottom: 5%;
     text-align: left;
 }
@@ -181,9 +181,18 @@
     color: var(--light-main-color);
 }
 
+@media screen and (max-width: 1250px) {
+    .sideBar{
+        max-width: 30%;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .headerLanguageButton {
         height: 100%;
+    }
+    .sideBarLink {
+        font-size: small
     }
 }
 
@@ -195,23 +204,20 @@
     .mainPage {
         padding-top: 3%;
     } 
-    .sideBarLink {
-        font-size: small
-    }
     .sideBar {
         min-width: 30%;
     }
     .mainPageInfoText {
         margin-right: 5%;
     }
+    .sideBar {
+        min-width: 40%;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .headerButtonGroup {
         width: max-content;
-    }
-    .sideBar {
-        min-width: 40%;
     }
 }
 
@@ -222,8 +228,11 @@
     .mainContainer {
         flex-direction: column;
     }
+    .sideBar{
+        max-width: 100%;
+    }
     .sideBar {
-        width: 100%;
+        width: 100%;;
     }
     .sideBarPhoto {
         max-height: none;
